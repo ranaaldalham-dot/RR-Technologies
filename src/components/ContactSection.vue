@@ -2,7 +2,7 @@
   <section id="contact" :dir="isRTL ? 'rtl' : 'ltr'" class="bg-blue-50 dark:bg-[#071235] py-16 sm:py-20">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col lg:flex-row justify-center items-center gap-12" :class="isRTL ? 'lg:flex-row-reverse' : ''">
       <div class="flex justify-center">
-        <img  class="w-64 sm:w-80 md:w-[420px] lg:w-[489px]" src="/src/assets/img/ContactSection/assistant-bot.png" alt="Contact Illustration" />
+        <img  class="w-64 sm:w-80 md:w-[420px] lg:w-[489px]" src="/src/assets/Img/ContactSection/assistant-bot.png" alt="Contact Illustration" />
       </div>
       <form class="contact-form-static rounded-2xl shadow-lg p-6 sm:p-8 w-full max-w-md" :class="isRTL ? 'text-right' : 'text-left'">
         <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-600/75 mb-4"> {{ $t('contact.title') }} </h3>

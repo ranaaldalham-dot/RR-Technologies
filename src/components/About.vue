@@ -56,7 +56,7 @@
           </div>
         </div>
         <div :class="['flex justify-center order-1 md:order-2', locale === 'ar' ? 'md:order-1' : 'md:order-2']">
-          <img src="/src/assets/img/AboutSection/about-illustration.png" alt="About Illustration" class="w-[90%] h-[298px] sm:max-w-[420px]" />
+          <img src="/src/assets/Img/AboutSection/about-illustration.png" alt="About Illustration" class="w-[90%] h-[298px] sm:max-w-[420px]" />
         </div>
       </div>
     </div>

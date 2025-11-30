@@ -25,7 +25,7 @@
             {{ $t(card.title) }}
           </h3>
           <div class="absolute bottom-4 right-4 w-7 h-7 bg-blue-500/80 flex items-center justify-center rounded" :class="{'left-4 right-auto': $i18n.locale === 'ar'}">
-            <img src="/src/assets/img/ServicesSection/arrow.png" alt="arrow" class="w-4 h-4" />
+            <img src="/src/assets/Img/ServicesSection/arrow.png" alt="arrow" class="w-4 h-4" />
           </div>
         </div>
       </div>
@@ -37,29 +37,29 @@
 import { useI18n } from 'vue-i18n'
 const { locale } = useI18n()
 
-const images = import.meta.glob('/src/assets/img/ServicesSection/*.png', { eager: true, import: 'default' }) 
+const images = import.meta.glob('/src/assets/Img/ServicesSection/*.png', { eager: true, import: 'default' }) 
 const cards = [
   {
     title: 'services.cards.design',
-    icon: images ['/src/assets/img/ServicesSection/design-icon.png'],
+    icon: images ['/src/assets/Img/ServicesSection/design-icon.png'],
     staticClass: 'service-card-design', 
     textClass: 'text-white',
   },
   {
     title: 'services.cards.solutions',
-    icon: images ['/src/assets/img/ServicesSection/solutions-icon.png'],
+    icon: images ['/src/assets/Img/ServicesSection/solutions-icon.png'],
     staticClass: 'service-card-other', 
     textClass: 'text-gray-800',
   },
   {
     title: 'services.cards.custom',
-    icon: images ['/src/assets/img/ServicesSection/development-icon.png'],
+    icon: images ['/src/assets/Img/ServicesSection/development-icon.png'],
     staticClass: 'service-card-other', 
     textClass: 'text-gray-800',
   },
   {
     title: 'services.cards.search',
-    icon: images ['/src/assets/img/ServicesSection/search-icon.png'],
+    icon: images ['/src/assets/Img/ServicesSection/search-icon.png'],
     staticClass: 'service-card-other', 
     textClass: 'text-gray-800',
   },

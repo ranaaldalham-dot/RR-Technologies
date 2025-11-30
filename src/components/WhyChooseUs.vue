@@ -18,21 +18,21 @@
       </p>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center">
         <div class="why-card-static w-full max-w-[360px] min-h-[386px] shadow-md rounded-xl p-6 sm:p-8 hover:shadow-lg transition">
-          <img src="/src/assets/img/whyUsSection/experience-icon.png" class="w-12 mx-auto mb-2" />
+          <img src="/src/assets/Img/whyUsSection/experience-icon.png" class="w-12 mx-auto mb-2" />
           <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-2"> {{ $t('why.cards.experience.title') }} </h3>
           <p class="text-gray-600 text-sm text-left capitalize leading-relaxed" :class="isRTL ? 'text-right' : 'text-left'">
             {{ $t('why.cards.experience.text') }}
           </p>
         </div>
         <div class="why-card-static w-full max-w-[360px] min-h-[386px] shadow-md rounded-xl p-6 sm:p-8 hover:shadow-lg transition">
-          <img src="/src/assets/img/whyUsSection/team-icon.png" class="w-12 mx-auto mb-4" />
+          <img src="/src/assets/Img/whyUsSection/team-icon.png" class="w-12 mx-auto mb-4" />
           <h3 class="text-lg sm:text-xl font-bold text-gray-900 capitalize mb-2"> {{ $t('why.cards.team.title') }} </h3>
           <p class="text-gray-600 text-sm text-left capitalize leading-relaxed" :class="isRTL ? 'text-right' : 'text-left'">
              {{ $t('why.cards.team.text') }}
           </p>
         </div>
         <div class="why-card-static w-full max-w-[360px] min-h-[386px] shadow-md rounded-xl p-6 sm:p-8 hover:shadow-lg transition">
-          <img src="/src/assets/img/whyUsSection/time-icon.png" class="w-12 mx-auto mb-4" />
+          <img src="/src/assets/Img/whyUsSection/time-icon.png" class="w-12 mx-auto mb-4" />
           <h3 class="text-lg sm:text-xl font-bold text-gray-900 capitalize mb-2"> {{ $t('why.cards.time.title') }} </h3>
           <p class="text-gray-600 text-sm text-left capitalize leading-relaxed" :class="isRTL ? 'text-right' : 'text-left'">
             {{ $t('why.cards.time.text') }}
@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="why-card-static w-full max-w-[360px] min-h-[386px] shadow-md rounded-xl p-6 sm:p-8 hover:shadow-lg transition sm:col-span-2 lg:col-span-1 lg:col-start-2 justify-self-center mt-2">
-        <img src="/src/assets/img/whyUsSection/pricing-icon.png" class="w-12 mx-auto mb-4" />
+        <img src="/src/assets/Img/whyUsSection/pricing-icon.png" class="w-12 mx-auto mb-4" />
         <h3 class="text-lg sm:text-xl font-bold text-gray-900 capitalize mb-2"> {{ $t('why.cards.price.title') }} </h3>
         <p class="text-gray-600 text-sm text-left capitalize leading-relaxed" :class="isRTL ? 'text-right' : 'text-left'">
           {{ $t('why.cards.price.text') }}

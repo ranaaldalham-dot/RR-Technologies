@@ -50,11 +50,11 @@
  
     <div class="relative max-w-5xl mx-auto px-4 sm:px-6 text-center mt-10 sm:mt-16 lg:mt-20 z-10">
       <div class="relative w-full flex justify-center items-center h-56 sm:h-64 lg:h-[300px]">
-        <img src="/src/assets/img/HeroSection/swirl.png" alt="Orbit swirl" class="absolute z-0 w-[450px] sm:w-[750px] lg:w-[1050px] translate-y-6 sm:translate-y-8 lg:translate-y-10" />
-        <img src="/src/assets/img/HeroSection/globe.png" alt="Globe" class="absolute z-10 w-36 sm:w-52 lg:w-[310px] rotate-[-10deg]" />
+        <img src="/src/assets/Img/HeroSection/swirl.png" alt="Orbit swirl" class="absolute z-0 w-[450px] sm:w-[750px] lg:w-[1050px] translate-y-6 sm:translate-y-8 lg:translate-y-10" />
+        <img src="/src/assets/Img/HeroSection/globe.png" alt="Globe" class="absolute z-10 w-36 sm:w-52 lg:w-[310px] rotate-[-10deg]" />
         <h1 class="absolute z-20 text-center text-3xl sm:text-4xl md:text-5xl lg:text-[68px] font-bold text-gray-900 dark:text-white leading-tight px-4">
           {{ $t('hero.welcome') }} <span class="relative inline-block text-blue-700/65">RR
-           <img src="/src/assets/img/HeroSection/title_line.png"  alt="underline" class="absolute left-1/2 -translate-x-1/2 -bottom-1 w-16 md:w-24" /></span><br />
+           <img src="/src/assets/Img/HeroSection/title_line.png"  alt="underline" class="absolute left-1/2 -translate-x-1/2 -bottom-1 w-16 md:w-24" /></span><br />
              {{ $t('hero.tech') }}
         </h1>
       </div>
@@ -64,7 +64,7 @@
       <button class="mt-8 px-8 py-3 bg-gray-800 dark:bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-800 duration-300 text-sm sm:text-base">
         {{ $t('hero.button') }}
       </button>
-      <img src="/src/assets/img/HeroSection/mouse.png" alt="Mouse icon" class="w-8 sm:w-10 mx-auto mt-10 mb-12" />
+      <img src="/src/assets/Img/HeroSection/mouse.png" alt="Mouse icon" class="w-8 sm:w-10 mx-auto mt-10 mb-12" />
     </div>
   </section>
 </template>

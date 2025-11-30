@@ -41,16 +41,16 @@ const { locale } = useI18n({ useScope: 'global' })
 
 const isRTL = computed(() => locale.value === 'ar')
 
-const images = import.meta.glob('/src/assets/img/Portfolio/*.png', { eager: true, import: 'default' }) 
+const images = import.meta.glob('/src/assets/Img/Portfolio/*.png', { eager: true, import: 'default' }) 
 const portfolioImages = [
- images [ "/src/assets/img/Portfolio/portfolio-1.png"],
- images [ "/src/assets/img/Portfolio/portfolio-2.png"],
- images [ "/src/assets/img/Portfolio/portfolio-3.png"],
- images [ "/src/assets/img/Portfolio/portfolio-4.png"],
- images [ "/src/assets/img/Portfolio/portfolio-5.png"],
- images [ "/src/assets/img/Portfolio/portfolio-6.png"],
- images [ "/src/assets/img/Portfolio/portfolio-7.png"],
- images [ "/src/assets/img/Portfolio/portfolio-8.png"]
+ images [ "/src/assets/Img/Portfolio/portfolio-1.png"],
+ images [ "/src/assets/Img/Portfolio/portfolio-2.png"],
+ images [ "/src/assets/Img/Portfolio/portfolio-3.png"],
+ images [ "/src/assets/Img/Portfolio/portfolio-4.png"],
+ images [ "/src/assets/Img/Portfolio/portfolio-5.png"],
+ images [ "/src/assets/Img/Portfolio/portfolio-6.png"],
+ images [ "/src/assets/Img/Portfolio/portfolio-7.png"],
+ images [ "/src/assets/Img/Portfolio/portfolio-8.png"]
 ]
 
 

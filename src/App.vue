@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-screen" :class="{ rtl: locale === 'ar' }">
+  <div class="min-h-screen relative" :class="{ rtl: locale === 'ar' }">
 
-    <div class="fixed top-15 right-6 z-50 flex gap-3 items-center transition-all duration-300" :class="locale === 'ar' ? 'left-6 flex-row-reverse' : 'right-6'">
+    <div class="absolute top-15 right-6 z-50 flex gap-3 items-center" :class="locale === 'ar' ? 'left-6 flex-row-reverse' : 'right-6'">
       <button @click="toggleTheme" class="relative w-14 h-8 bg-gray-300 dark:bg-blue-800 rounded-full transition-all duration-300">
         <span class="absolute top-1 left-1 w-6 h-6 bg-white rounded-full shadow-md transform transition-all duration-300" :class="{ 'translate-x-6': isDark }"></span>
       </button>

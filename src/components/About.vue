@@ -49,7 +49,7 @@
               </p>
             </transition>
             <div class="flex justify-center">
-              <button @click="showMore = !showMore" class="about-more-button mt-4 px-6 py-2 text-sm hover:bg-blue-700 dark:hover:bg-blue-600 rounded-lg font-medium shadow-md transition">
+              <button @click="showMore = !showMore" class="about-more-button mt-4 px-6 py-2 text-sm hover:bg-blue-700 rounded-lg font-medium shadow-md transition">
                 {{ showMore ? $t('about.less') : $t('about.more') }}
               </button>
             </div>

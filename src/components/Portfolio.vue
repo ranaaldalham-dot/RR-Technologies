@@ -1,7 +1,6 @@
 <template>
-  <section id="portfolio" class="py-16 sm:py-20 lg:py-24 bg-[#f5f8ff] dark:bg-black border-y-2 border-blue-300 dark:border-hidden">
-    
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+  <section id="portfolio" class="portfolio-border-top portfolio-border-bottom py-16 sm:py-20 lg:py-24 bg-[#f5f8ff] dark:bg-black dark:border-hidden">
+     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div>
         <h2 class="text-2xl sm:text-3xl lg:text-4xl text-gray-900 dark:text-blue-600 text-center mb-2"> {{ $t('portfolio.title') }} </h2>
         <img class="image-light mx-auto w-40 sm:w-52 h-6 mb-12 sm:mb-16 object-contain" src="/img/light-line.png" alt="light mood line" />

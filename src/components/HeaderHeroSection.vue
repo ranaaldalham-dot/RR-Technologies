@@ -26,7 +26,7 @@
         <a href="#about" class="hover:text-blue-500 dark:hove::text-blue-300"> {{ $t('nav.about') }} </a>
         <a href="#testimonials" class="hover:text-blue-500 dark:hover:text-blue-300"> {{ $t('nav.testimonials') }} </a>
       </nav>
-      <button class="hidden md:block px-6 py-2 bg-blue-600/75 dark:bg-blue-500 text-white rounded-full text-sm font-medium hover:bg-blue-600 duration-200">
+      <button class="hidden md:block px-6 py-2 bg-blue-600/75 dark:bg-blue-500 text-white rounded-full text-sm font-medium">
         {{ $t('nav.contact') }}
       </button>
       <button class="md:hidden inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:bg-white/70 dark:text-white" @click="toggleMobileMenu" aria-label="Toggle navigation">
@@ -39,11 +39,11 @@
       </button>
     </header>
     <nav v-if="isMobileMenuOpen" class="md:hidden z-20 relative px-4 pb-4 space-y-2 text-sm font-medium text-gray-700 dark:text-white">
-      <a href="#services" class="block py-2 rounded-md hover:bg-white/70 dark:hover:text-blue-300"> {{ $t('nav.services') }} </a>
-      <a href="#portfolio" class="block py-2 rounded-md hover:bg-white/70 dark:hover:text-blue-300"> {{ $t('nav.portfolio') }} </a>
-      <a href="#about" class="block py-2 rounded-md hover:bg-white/70 dark:hover:text-blue-300"> {{ $t('nav.about') }} </a>
-      <a href="#testimonials" class="block py-2 rounded-md hover:bg-white/70 dark:hover:text-blue-300"> {{ $t('nav.testimonials') }} </a>
-      <button class="mt-2 w-full px-4 py-2 bg-blue-600/75 dark:bg-blue-500 text-white rounded-full text-sm font-medium hover:bg-blue-600 duration-200">
+      <a href="#services" class="block py-2 rounded-md"> {{ $t('nav.services') }} </a>
+      <a href="#portfolio" class="block py-2 rounded-md"> {{ $t('nav.portfolio') }} </a>
+      <a href="#about" class="block py-2 rounded-md"> {{ $t('nav.about') }} </a>
+      <a href="#testimonials" class="block py-2 rounded-md"> {{ $t('nav.testimonials') }} </a>
+      <button class="mt-2 w-full px-4 py-2 bg-blue-600/75 dark:bg-blue-500 text-white rounded-full text-sm font-medium">
         {{ $t('nav.contact') }}
       </button>
     </nav>
@@ -61,7 +61,7 @@
       <p class="hero-difficulties capitalize max-w-xl mx-auto mt-6 text-sm sm:text-base">
         {{ $t('hero.difficulties') }}
       </p>
-      <button class="mt-8 px-8 py-3 bg-gray-800 dark:bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-800 duration-300 text-sm sm:text-base">
+      <button class="mt-8 px-8 py-3 bg-gray-800 dark:bg-blue-500 text-white rounded-lg shadow-md text-sm sm:text-base">
         {{ $t('hero.button') }}
       </button>
       <img src="/src/assets/Img/HeroSection/mouse.png" alt="Mouse icon" class="w-8 sm:w-10 mx-auto mt-10 mb-12" />
